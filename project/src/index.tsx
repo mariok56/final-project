@@ -7,7 +7,7 @@ import { Login } from "./screens/Auth/Login";
 import { Register } from "./screens/Auth/Register";
 import { Dashboard } from "./screens/Dashboard";
 import { AuthProvider } from "./contexts/AuthContext";
-import { ProtectedRoute } from "./components/ProtectedRoute";
+import { ProtectedRoute } from "./components/ui/ProtectedRoute";
 
 createRoot(document.getElementById("app") as HTMLElement).render(
   <StrictMode>
